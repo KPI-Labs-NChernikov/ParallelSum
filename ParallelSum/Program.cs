@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-using System.Diagnostics;
+﻿using System.Diagnostics;
 
 var arr = new long[1000000000];
 Parallel.For(0, arr.Length, i =>
